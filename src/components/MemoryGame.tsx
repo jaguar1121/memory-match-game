@@ -206,6 +206,10 @@ export default function MemoryGame() {
       )}
 
       {phase === "won" && <Confetti />}
+
+      <footer className="pt-4 text-center text-sm text-slate-400">
+        🎮 動動腦，訓練你的記憶力！
+      </footer>
     </div>
   );
 }
